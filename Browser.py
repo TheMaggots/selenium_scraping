@@ -1,7 +1,11 @@
+import csv 
 from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys 
 
+
+"""place your path here in the executable path""""
 driver = webdriver.Chrome(executable_path = r"C:\Users\Lenovo\Documents\astaqc\selenium\Drivers\chromedriver.exe")
+
 
 BASE_URL = "https://google.com"
 """ Base_URL is been passed to driver"""
